@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ECR_REGISTRY = "<251438872730>.dkr.ecr.us-east-1.amazonaws.com"
+        ECR_REGISTRY = "<>.dkr.ecr.us-east-1.amazonaws.com"
         APP_REPO_NAME= "clarusway/to-do-app"
     }
     stages {
